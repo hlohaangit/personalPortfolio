@@ -1829,6 +1829,10 @@ textarea.form-input::-webkit-resizer {
     margin-bottom: 25px;
   }
 
+  .pdf-resume-button {
+    padding-top: 15px;
+  }
+
 
 
   /**
