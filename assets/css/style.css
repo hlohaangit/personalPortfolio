@@ -333,7 +333,14 @@ main {
   min-width: 259px;
 }
 
+.avatar {
+  display: none;
+}
 
+.avatar-active {
+  display: block !important;
+  transition: fade 0.5s ease;
+}
 
 
 
