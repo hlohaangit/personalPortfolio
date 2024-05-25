@@ -162,7 +162,7 @@ html {
 }
 
 body {
-  background: var(--smoky-black);
+  background-color: var(--smoky-black);
 }
 
 
@@ -2308,4 +2308,15 @@ textarea.form-input::-webkit-resizer {
   button {
     font-size: var(--fs-12);
   }
+}
+
+#tsparticles {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  /* background-color: antiquewhite; */
 }

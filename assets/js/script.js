@@ -195,3 +195,48 @@ function sendEmail() {
   message => alert(message)
   );
 }
+
+
+
+
+const options = {
+  interactivity: {
+    events: {
+      onClick: {
+        enable: true,
+        mode: "push"
+      },
+      onHover: {
+        enable: true,
+        mode: "repulse"
+      }
+    },
+    modes: {
+      push: {
+        quantity: 3
+      },
+      repulse: {
+        distance: 100
+      }
+    }
+  },
+  particles: {
+    links: {
+      enable: true, // this enables links between particles
+      opacity: 0.3,
+      distance: 190
+    },
+    move: {
+      enable: true
+    },
+    opacity: {
+      value: { min: 0.5, max: 0.7 }
+    },
+    size: {
+      value: { min: 1, max: 1 }
+    }
+  }
+};
+
+tsParticles.load("tsparticles", options);
+
