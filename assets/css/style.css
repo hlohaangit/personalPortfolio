@@ -163,6 +163,10 @@ html {
 
 body {
   background-color: var(--smoky-black);
+  background-image: url(/assets/images/piano_image.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 
