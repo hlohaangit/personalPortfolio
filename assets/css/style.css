@@ -1171,6 +1171,7 @@ main {
   grid-template-columns: 1fr;
   gap: 30px;
   margin-bottom: 10px;
+  width: auto;
 }
 
 .project-item {
