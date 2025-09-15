@@ -721,6 +721,12 @@ main {
   }
 }
 
+/* Apply same grow effect to other About Me cards on hover (exclude music card) */
+.service .service-item:not(.music_tab):hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
 @media (pointer:coarse) {
   .music_tab {
     -webkit-animation: breathing 5s ease-out infinite normal;

@@ -240,3 +240,18 @@ const options = {
 
 tsParticles.load("tsparticles", options);
 
+
+
+// Link About Me service cards (except Music) to Projects page
+const projectsNavButton = document.querySelector('[data-nav-link="projects"]');
+const aboutServiceItems = document.querySelectorAll('.service .service-item:not(.music_tab)');
+
+if (projectsNavButton && aboutServiceItems && aboutServiceItems.length > 0) {
+  for (let i = 0; i < aboutServiceItems.length; i++) {
+    const serviceItem = aboutServiceItems[i];
+    serviceItem.style.cursor = "pointer";
+    serviceItem.addEventListener('click', function () {
+      projectsNavButton.click();
+    });
+  }
+}
